@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Helper\RedirectHelper;
 use App\Models\Deposit;
 use App\Models\Payment;
+use App\Models\Payment_number;
 use App\Models\User;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
@@ -17,7 +18,9 @@ class DepositController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function createOrIndex(Request $request)
-    {
+    {   
+        $data['payment_numbers'] = Payment::with('numbers')->get();
+        return $data;
         // for deposit only admin selected method can be load
            $data['user'] = User::whereHas('roles',function( $user){$user->where('roles.name','Super Admin');})->first();
            $adminId = $data['user']->id;
