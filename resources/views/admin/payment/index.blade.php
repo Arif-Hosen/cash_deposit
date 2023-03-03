@@ -174,8 +174,13 @@
                                       </td>
                                     @endif
                                         <td class="p-1 text-capitalize">{{ $val->name }}</td>
-                                        <td class="p-1 text-capitalize">{{ $val->mobile }}</td>
-
+                                        <td class="p-1 text-capitalize">
+                                            <ul>
+                                        @foreach ($val->numbers as $no)
+                                            <li>{{ $no->number }}</li>
+                                        @endforeach
+                                            </ul>
+                                    </td>
                                         @if (\App\Helper\CustomHelper::canView('Manage Institute', 'Super Admin|Agent|Sub Agent'))
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
@@ -244,40 +249,27 @@
                         <input type="hidden" class="dt form-control" name="id" id="manage-id" value="">
                         @if ($datas)
                             <div class="row">
-                              @if (\App\Helper\CustomHelper::canView('Create Payment', 'Super Admin'))
+                                {{-- for agent/sub agent --}}
+                                @if (\App\Helper\CustomHelper::canView('Create Payment', ''))
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <label class="control-label">Payment Method Name<span class="text-danger">*</span></label>
-                                        <input type="text" id="manage-name" name="name" placeholder="Name"
-                                            autocomplete="off" value=""
+                                        <label class="control-label">Payment Method<span
+                                                class="text-danger">*</span></label>
+                                        <select name="name" required
                                             class="form-control @error('name') is-invalid @enderror">
+                                            <option value="">Choose a Payment Method</option>
+                                            @foreach (\App\Models\Payment::$paymentMethods as $key => $data)
+                                                <option value="{{ $key }}"
+                                                    @if (old('name') == $data) selected @endif>
+                                                    {{ ucfirst($data) }}</option>
+                                            @endforeach
+                                        </select>
                                         @error('name')
                                             <strong class="text-danger">{{ $errors->first('name') }}</strong>
                                         @enderror
+                                        <strong class="text-danger" id="name_error"></strong>
                                     </div>
                                 </div>
-                                @endif
-                                {{-- for agent/sub agent --}}
-                                @if (\App\Helper\CustomHelper::canView('Create Payment', 'Agent|Sub Agent'))
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label class="control-label">Payment Method<span
-                                                    class="text-danger">*</span></label>
-                                            <select name="name" required
-                                                class="form-control @error('name') is-invalid @enderror">
-                                                <option value="">Choose a Payment Method</option>
-                                                @foreach ($datas as $data)
-                                                    <option value="{{ $data->name }}"
-                                                        @if (old('name') == $data->name) selected @endif>
-                                                        {{ ucfirst($data->name) }}</option>
-                                                @endforeach
-                                            </select>
-                                            @error('name')
-                                                <strong class="text-danger">{{ $errors->first('name') }}</strong>
-                                            @enderror
-                                            <strong class="text-danger" id="name_error"></strong>
-                                        </div>
-                                    </div>
                                 @endif
                                 <div class="col-sm-6">
                                     <div class="form-group">
