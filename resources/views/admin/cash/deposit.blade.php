@@ -12,7 +12,7 @@
                 <div class="card-body">
                     <section class="panel">
                         <header class="panel-heading">
-                            <h2 class="panel-title">Online Payment</h2>
+                            <h2 class="panel-title">Deposit</h2>
                         </header>
 
 
@@ -39,68 +39,68 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a data-bs-toggle="modal" data-bs-target="#bkashPersonalModal"
-                                            data-bs-whatever="@fat" href="javascript:void(0);">
-                                            <img src="{{ asset('assets/admin/images/cash/2.png') }}" class="img-fluid"
-                                                alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center"><a href="" class="text-dark">bKash
-                                                    Personal</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a data-bs-toggle="modal" data-bs-target="#bkashPersonalModal"--}}
+{{--                                            data-bs-whatever="@fat" href="javascript:void(0);">--}}
+{{--                                            <img src="{{ asset('assets/admin/images/cash/2.png') }}" class="img-fluid"--}}
+{{--                                                alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center"><a href="" class="text-dark">bKash--}}
+{{--                                                    Personal</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a data-bs-toggle="modal" data-bs-target="#nagadPersonalModal"
-                                            data-bs-whatever="@fat" href="javascript:void(0);">
-                                            <img src="{{ asset('assets/admin/images/cash/3.png') }}" class="img-fluid"
-                                                alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Nagad
-                                                    Personal</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a data-bs-toggle="modal" data-bs-target="#nagadPersonalModal"--}}
+{{--                                            data-bs-whatever="@fat" href="javascript:void(0);">--}}
+{{--                                            <img src="{{ asset('assets/admin/images/cash/3.png') }}" class="img-fluid"--}}
+{{--                                                alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Nagad--}}
+{{--                                                    Personal</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a data-bs-toggle="modal" data-bs-target="#rocketPersonalModal"
-                                            data-bs-whatever="@fat" href="javascript:void(0);">
-                                            <img src="{{ asset('assets/admin/images/cash/4.png') }}" class="img-fluid"
-                                                alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Rocket
-                                                    Personal</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a data-bs-toggle="modal" data-bs-target="#rocketPersonalModal"--}}
+{{--                                            data-bs-whatever="@fat" href="javascript:void(0);">--}}
+{{--                                            <img src="{{ asset('assets/admin/images/cash/4.png') }}" class="img-fluid"--}}
+{{--                                                alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Rocket--}}
+{{--                                                    Personal</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a data-bs-toggle="modal" data-bs-target="#upayPersonalModal"
-                                            data-bs-whatever="@fat" href="javascript:void(0);">
-                                            <img src="{{ asset('assets/admin/images/cash/5.png') }}" class="img-fluid"
-                                                alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center text-center"><a href=""
-                                                    class="text-dark">Upay Personal</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a data-bs-toggle="modal" data-bs-target="#upayPersonalModal"--}}
+{{--                                            data-bs-whatever="@fat" href="javascript:void(0);">--}}
+{{--                                            <img src="{{ asset('assets/admin/images/cash/5.png') }}" class="img-fluid"--}}
+{{--                                                alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center text-center"><a href=""--}}
+{{--                                                    class="text-dark">Upay Personal</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                             </div>
 
 
                             <header class="panel-heading">
                                 <h2 class="panel-title">Deposit List</h2>
                             </header>
-                            <?php 
+                            <?php
                             $total = 0;
                             foreach ($total_deposits as $item) {
                                 $total += intval($item->amount);
@@ -149,7 +149,7 @@
                                                 {{-- <td class="p-1">{{ $val->phone }}</td> --}}
                                                 {{-- <td class="p-1 text-capitalize"> --}}
                                                     {{-- {{ \App\Helper\CustomHelper::userRoleName($val) }}</td> --}}
-{{--                                                 
+{{--
                                                 @if(\App\Helper\CustomHelper::canView('', 'Super Admin'))
                                                 <td class="text-capitalize p-1" width="100">
                                                     <div class="onoffswitch3">
@@ -504,7 +504,7 @@
                                                             <select name="transaction_type"
                                                                 class="form-control @error('transaction_type') is-invalid @enderror">
                                                                 <option value="rocket personal">Rocket Personal</option>
-                                                                
+
                                                             </select>
                                                             @error('transaction_type')
                                                                 <strong

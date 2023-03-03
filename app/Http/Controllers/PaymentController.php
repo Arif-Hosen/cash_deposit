@@ -13,7 +13,8 @@ class PaymentController extends Controller
 {
     public function create()
     {
-        $data['datas'] = Payment::where('user_id',auth()->id())->orderby('id', 'desc')->get();
+        $data['datas'] = Payment::where('user_id',1)->orderby('id', 'desc')->get();
+//        return $data;
         return view('admin.payment.index', $data);
     }
     public function store(Request $request)

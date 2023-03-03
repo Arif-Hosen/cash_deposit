@@ -49,7 +49,7 @@
 
           <div class="form-group row m-t-20">
             <div class="col-sm-12 text-right">
-              <a href="{{ route('register') }}" class="btn btn-primary mr-1 w-md waves-effect waves-light">Register</a>
+{{--              <a href="{{ route('register') }}" class="btn btn-primary mr-1 w-md waves-effect waves-light">Register</a>--}}
               <button style="background-color:#54359D;" class="btn text-light w-md waves-effect waves-light" type="submit">Log In</button>
 
             </div>

@@ -18,11 +18,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="hero2-content-wrapper">
-                        <h1 class="display-font text-white">The Manage Web Hosting Services</h1>
-                        <p class="lead mt-4 text-white">Touch the success! Domain and Secure Web Hosting <br class="d-none d-sm-inline-block"> from <mark>$4.99 per month</mark></p>
+                        <h1 class="display-font text-white">The Manage Yor Cash Services</h1>
+                        <p class="lead mt-4 text-white">Touch the success! Cash and Secure Money Service <br class="d-none d-sm-inline-block"> with <mark>a free cost</mark></p>
                         <div class="hero-btns mt-5">
-                            <a href="pricing.html" class="template-btn hm2-primary-btn rounded-pill me-4">View Pricings</a>
-                            <a href="contact.html" class="template-btn outline-btn rounded-pill">Try a Free Demo</a>
+                            <a href="pricing.html" class="template-btn hm2-primary-btn rounded-pill me-4">Get Started</a>
+                            <a href="contact.html" class="template-btn outline-btn rounded-pill">Contact Now</a>
                         </div>
                     </div>
                 </div>
@@ -44,13 +44,13 @@
             <div class="row justify-content-between">
                 <div class="col-lg-6">
                     <div class="hm2-section-title">
-                        <h2 class="hm2-title"><mark>Discover</mark> all Our <br>Web Hosting Features</h2>
+                        <h2 class="hm2-title"><mark>Discover</mark> all Our <br>Cash Deposite Site</h2>
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="hm2-section-desc mt-3 mt-lg-0">
                         <p>Focus on your business and avoid all the web hosting hassles. Our managed hosting guarantees unmatched performance, reliability and choice with 24/7 support that acts as your extended team,</p>
-                        <a href="features.html" class="hm2-explore-btn fw-bold position-relative">Show all Feature</a>
+                        <a href="" class="hm2-explore-btn fw-bold position-relative">Show all Feature</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="hm2-feature-card deep-shadow bg-white rounded-2">
                         <span class="icon-wrapper d-flex align-items-center justify-content-center rounded-circle"><i class="fa-solid fa-cloud-arrow-down"></i></span>
-                        <h3 class="h4 mt-4">Maximum <br>Data Transfer</h3>
+                        <h3 class="h4 mt-4">Maximum <br>Data Trusted</h3>
                         <p class="mt-3">Choice for growing agencies and support that acts asyour ecommerce businesses.</p>
                         <a href="#" class="mt-2 d-inline-block rounded-circle text-center position-relative overflow-hidden"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
@@ -94,7 +94,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="hm2-award-title text-center">
-                        <h2 class="position-relative">Hostim Best Award</h2>
+                        <h2 class="position-relative">Cash Deposite Best Award</h2>
                         <p>Our managed hosting guarantees unmatched performance, reliability and choice with 24/7 support that acts</p>
                     </div>
                 </div>
@@ -129,12 +129,12 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="service-right">
-                        <h2 class="hm2-title">We're Provide Web Hosting Solutions Agency.</h2>
+                        <h2 class="hm2-title">We're Provide Cash Deposit & Withdraw Solutions.</h2>
                         <p class="mt-3">Focus on your business and avoid all the web hosting managed hosting guarantees unmatched performance, reliability and choice with 24/7 support that acts as your extended team guarantees unmatched performance.</p>
                         <div class="hm2-service-tab mt-30 mb-40">
                             <ul class="nav nav-tabs">
-                                <li><button class="active" data-bs-toggle="tab" data-bs-target="#domain_service" type="button"><i class="fa-solid fa-globe"></i>Domain Services</button></li>
-                                <li><button data-bs-toggle="tab" data-bs-target="#hosting_service" type="button"><i class="fa-solid fa-earth-asia"></i>Web Hosting Services</button></li>
+                                <li><button class="active" data-bs-toggle="tab" data-bs-target="#domain_service" type="button"><i class="fa-solid fa-globe"></i>Cash Deposite</button></li>
+                                <li><button data-bs-toggle="tab" data-bs-target="#hosting_service" type="button"><i class="fa-solid fa-earth-asia"></i>Cash Withdraw</button></li>
                             </ul>
                             <div class="tab-content mt-4">
                                 <div class="tab-pane fade show active" id="domain_service">
@@ -163,333 +163,276 @@
     <!-- services section end-->
 
     <!--pricing section start-->
-    <section class="hm2-pricing-section bg-light pt-120 pb-120 overflow-hidden" id="pricing">
-        <div class="container position-relative zindex-1">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="section-title text-center">
-                        <h2 class="hm2-title"><mark>Choose</mark> Awesome Plan for Your Needs</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="hm2-pricing-tab text-center mt-4">
-                <ul class="nav nav-tabs justify-content-center bg-white deep-shadow">
-                    <li><button class="active" data-bs-toggle="tab" data-bs-target="#domainHosting">Domain & Hosting</button></li>
-                    <li><button data-bs-toggle="tab" data-bs-target="#privateServer">Private Server</button></li>
-                    <li><button data-bs-toggle="tab" data-bs-target="#dedicatedServer">Dedicated Server</button></li>
-                </ul>
-                <div class="tab-content text-start mt-50">
-                    <div class="tab-pane active fade show" id="domainHosting">
-                        <div class="row g-4 justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="pricing-badge position-absolute rounded">
-                                        <span>Save 40%</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/starter-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Regular Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$24.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="popular-badge position-absolute">
-                                        <span>Most Popular</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/light-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Starlight Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$85.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn primary-btn text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="pricing-badge position-absolute rounded">
-                                        <span>Save 40%</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/premium-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Premium Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$99.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="privateServer">
-                        <div class="row g-4 justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="pricing-badge position-absolute rounded">
-                                        <span>Save 40%</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/starter-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Regular Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$75.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="popular-badge position-absolute">
-                                        <span>Most Popular</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/light-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Starlight Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$105.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn primary-btn text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="pricing-badge position-absolute rounded">
-                                        <span>Save 40%</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/premium-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Premium Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$150.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="dedicatedServer">
-                        <div class="row g-4 justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="pricing-badge position-absolute rounded">
-                                        <span>Save 40%</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/starter-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Regular Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$70.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="popular-badge position-absolute">
-                                        <span>Most Popular</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/light-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Starlight Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$100.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn primary-btn text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">
-                                    <div class="pricing-badge position-absolute rounded">
-                                        <span>Save 40%</span>
-                                    </div>
-                                    <span class="icon-wrapper">
-                                          <img src="{{asset('assets/frontend/img/home2/premium-pack.png')}}" alt="not found" class="img-fluid">
-                                      </span>
-                                    <h3 class="h5 mt-3">Premium Plans</h3>
-                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">
-                                        <h4 class="h2 price-title mb-0">$240.<span>99/month</span></h4>
-                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>
-                                    </div>
-                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>
-                                    <ul class="pricing-feature-list mt-4 mb-40">
-                                        <li>1 Domain</li>
-                                        <li>RAM 1GB</li>
-                                        <li>Processor 1 Core</li>
-                                        <li>Storage 25GB</li>
-                                        <li>Bandwidth 25GB</li>
-                                        <li>Bandwidth 1TB</li>
-                                    </ul>
-                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img src="{{asset('assets/frontend/img/home2/shape/pricing-circle.svg')}}" alt="not found" class="position-absolute pricing-circle">
-        </div>
-        <div class="container mt-60">
-            <div class="hm2-pricing-bottom">
-                <ul class="d-flex align-item-center justify-content-center flex-wrap">
-                    <li><i class="fa-solid fa-check"></i>24/7 Customer Support</li>
-                    <li><i class="fa-solid fa-check"></i>99.9% Uptime</li>
-                    <li><i class="fa-solid fa-check"></i>1-click Install</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+{{--    <section class="hm2-pricing-section bg-light pt-120 pb-120 overflow-hidden" id="pricing">--}}
+{{--        <div class="container position-relative zindex-1">--}}
+{{--            <div class="row justify-content-center">--}}
+{{--                <div class="col-lg-5">--}}
+{{--                    <div class="section-title text-center">--}}
+{{--                        <h2 class="hm2-title"><mark>Choose</mark> Awesome Plan for Your Needs</h2>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="hm2-pricing-tab text-center mt-4">--}}
+{{--                <ul class="nav nav-tabs justify-content-center bg-white deep-shadow">--}}
+{{--                    <li><button class="active" data-bs-toggle="tab" data-bs-target="#domainHosting">Domain & Hosting</button></li>--}}
+{{--                    <li><button data-bs-toggle="tab" data-bs-target="#privateServer">Private Server</button></li>--}}
+{{--                    <li><button data-bs-toggle="tab" data-bs-target="#dedicatedServer">Dedicated Server</button></li>--}}
+{{--                </ul>--}}
+{{--                <div class="tab-content text-start mt-50">--}}
+{{--                    <div class="tab-pane active fade show" id="domainHosting">--}}
+{{--                        <div class="row g-4 justify-content-center">--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="pricing-badge position-absolute rounded">--}}
+{{--                                        <span>Save 40%</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/starter-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Regular Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$24.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="popular-badge position-absolute">--}}
+{{--                                        <span>Most Popular</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/light-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Starlight Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$85.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn primary-btn text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="pricing-badge position-absolute rounded">--}}
+{{--                                        <span>Save 40%</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/premium-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Premium Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$99.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="tab-pane fade" id="privateServer">--}}
+{{--                        <div class="row g-4 justify-content-center">--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="pricing-badge position-absolute rounded">--}}
+{{--                                        <span>Save 40%</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/starter-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Regular Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$75.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="popular-badge position-absolute">--}}
+{{--                                        <span>Most Popular</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/light-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Starlight Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$105.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn primary-btn text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="pricing-badge position-absolute rounded">--}}
+{{--                                        <span>Save 40%</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/premium-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Premium Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$150.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="tab-pane fade" id="dedicatedServer">--}}
+{{--                        <div class="row g-4 justify-content-center">--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="pricing-badge position-absolute rounded">--}}
+{{--                                        <span>Save 40%</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/starter-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Regular Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$70.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="popular-badge position-absolute">--}}
+{{--                                        <span>Most Popular</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/light-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Starlight Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$100.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn primary-btn text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-4 col-md-6 col-sm-12">--}}
+{{--                                <div class="hm2-pricing-single position-relative bg-white deep-shadow rounded-2">--}}
+{{--                                    <div class="pricing-badge position-absolute rounded">--}}
+{{--                                        <span>Save 40%</span>--}}
+{{--                                    </div>--}}
+{{--                                    <span class="icon-wrapper">--}}
+{{--                                          <img src="{{asset('assets/frontend/img/home2/premium-pack.png')}}" alt="not found" class="img-fluid">--}}
+{{--                                      </span>--}}
+{{--                                    <h3 class="h5 mt-3">Premium Plans</h3>--}}
+{{--                                    <div class="pricing-amount d-flex justify-content-between mt-3 mb-4">--}}
+{{--                                        <h4 class="h2 price-title mb-0">$240.<span>99/month</span></h4>--}}
+{{--                                        <h6 class="pricing-deleted align-self-end position-relative">$50.99</h6>--}}
+{{--                                    </div>--}}
+{{--                                    <p>Packed with great features, such as one click software installs,24/7 support.</p>--}}
+{{--                                    <ul class="pricing-feature-list mt-4 mb-40">--}}
+{{--                                        <li>1 Domain</li>--}}
+{{--                                        <li>RAM 1GB</li>--}}
+{{--                                        <li>Processor 1 Core</li>--}}
+{{--                                        <li>Storage 25GB</li>--}}
+{{--                                        <li>Bandwidth 25GB</li>--}}
+{{--                                        <li>Bandwidth 1TB</li>--}}
+{{--                                    </ul>--}}
+{{--                                    <a href="#" class="template-btn outline-primary text-center w-100 rounded-pill">View Plans</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <img src="{{asset('assets/frontend/img/home2/shape/pricing-circle.svg')}}" alt="not found" class="position-absolute pricing-circle">--}}
+{{--        </div>--}}
+{{--        <div class="container mt-60">--}}
+{{--            <div class="hm2-pricing-bottom">--}}
+{{--                <ul class="d-flex align-item-center justify-content-center flex-wrap">--}}
+{{--                    <li><i class="fa-solid fa-check"></i>24/7 Customer Support</li>--}}
+{{--                    <li><i class="fa-solid fa-check"></i>99.9% Uptime</li>--}}
+{{--                    <li><i class="fa-solid fa-check"></i>1-click Install</li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!--pricing section end-->
 
-    <!--domain search area-->
-    <section class="hm2-domain-search bg-primary-gradient pt-30 position-relative zindex-1 overflow-hidden">
-        <img src="{{asset('assets/frontend/img/home2/shape/circle.svg')}}" alt="circle" class="position-absolute circle-shape">
-        <img src="{{asset('assets/frontend/img/home2/shape/circle-half.png')}}" alt="circle" class="position-absolute circle-half">
-        <img src="{{asset('assets/frontend/img/home2/shape/red-object.svg')}}" alt="red object" class="position-absolute red-object">
-        <img src="{{asset('assets/frontend/img/home2/shape/blue-circle.svg')}}" alt="blue circle" class="position-absolute blue-circle">
-        <img src="{{asset('assets/frontend/img/home2/shape/wave-lines.svg')}}" alt="wave line" class="position-absolute wave-line">
-        <img src="{{asset('assets/frontend/img/home2/shape/blue-object.svg')}}" alt="blue object" class="position-absolute blue-object">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <div class="hm3-domain-left text-center text-lg-start">
-                        <h2>Choose Your Domain Today!</h2>
-                        <form action="#" class="mt-4 hm2-dm-search-form position-relative d-flex align-items-center justify-content-between">
-                            <input type="text" placeholder="Search Domain Name">
-                            <select class="form-select">
-                                <option value="1">.com</option>
-                                <option value="1">.info</option>
-                                <option value="1">.org</option>
-                                <option value="1">.biz</option>
-                                <option value="1">.xyz</option>
-                            </select>
-                            <button type="submit" class="template-btn hm2-primary-btn border-0 flex-shrink-0">Search Now</button>
-                        </form>
-                        <div class="domain-info mt-4 d-flex align-items-center justify-content-center justify-content-lg-start">
-                            <div class="info-box border-0">
-                                <h5 class="primary-text mb-0">.com</h5>
-                                <span class="text-white">$2.44/Year</span>
-                            </div>
-                            <div class="info-box border-0">
-                                <h5 class="danger-text mb-0">.info</h5>
-                                <span class="text-white">$3.44/Year</span>
-                            </div>
-                            <div class="info-box border-0">
-                                <h5 class="success-text mb-0">.org</h5>
-                                <span class="text-white">$2.55/Year</span>
-                            </div>
-                            <div class="info-box border-0">
-                                <h5 class="blue-text mb-0">.biz</h5>
-                                <span class="text-white">$1.90/Year</span>
-                            </div>
-                            <div class="info-box border-0">
-                                <h5 class="info-text mb-0">.xyz</h5>
-                                <span class="text-white">$0.99/Year</span>
-                            </div>
-                        </div>
 
-                    </div>
-                </div>
-                <div class="col-lg-4 order-1 order-lg-2">
-                    <div class="feature-img text-center">
-                        <img src="{{asset('assets/frontend/img/home2/laptop.png')}}" alt="laptop" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--domain search area end-->
 
     <!--hosting server start-->
     <section class="hosting-server ptb-120 position-relative overflow-hidden light-bg zindex-1">
@@ -499,7 +442,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="section-title text-center">
-                        <h2>The Latest Web Hosting Server Service</h2>
+                        <h2>The Latest Cash Deposit Service</h2>
                     </div>
                 </div>
             </div>
@@ -508,10 +451,10 @@
                     <div class="col-lg-4">
                         <div class="tab-left">
                             <ul class="hm2-server-tab-control nav nav-tabs border-0">
-                                <li><button class="active" data-bs-toggle="tab" data-bs-target="#wp-hosting"><i class="fa-brands fa-wordpress"></i><span class="ms-3">WordPress Hosting</span></button></li>
-                                <li><button data-bs-toggle="tab" data-bs-target="#shared-hosting"><i class="fa-solid fa-server"></i><span class="ms-3">Shared Hosting</span></button></li>
-                                <li><button data-bs-toggle="tab" data-bs-target="#database"><i class="fa-solid fa-database"></i><span class="ms-3">Game Server</span></button></li>
-                                <li><button data-bs-toggle="tab" data-bs-target="#cloud-hosting"><i class="fa-solid fa-cloud-meatball"></i><span class="ms-3">VPS  Hosting</span></button></li>
+                                <li><button class="active" data-bs-toggle="tab" data-bs-target="#wp-hosting"><i class="fa-brands fa-wordpress"></i><span class="ms-3">bKash Agent</span></button></li>
+                                <li><button data-bs-toggle="tab" data-bs-target="#shared-hosting"><i class="fa-solid fa-server"></i><span class="ms-3">bKash Personal</span></button></li>
+                                <li><button data-bs-toggle="tab" data-bs-target="#database"><i class="fa-solid fa-database"></i><span class="ms-3">Rocket</span></button></li>
+                                <li><button data-bs-toggle="tab" data-bs-target="#cloud-hosting"><i class="fa-solid fa-cloud-meatball"></i><span class="ms-3">Nagod</span></button></li>
                             </ul>
                             <div class="explore-btn mt-30 d-none d-lg-block">
                                 <span class="icon-wrapper me-3"><img src="{{asset('assets/frontend/img/shapes/arrow.png')}}" alt="arrow" class="img-fluid"></span>
@@ -573,7 +516,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-2 order-lg-1">
                         <div class="question-box-content">
-                            <h3 class="h2">Questions about Hosting</h3>
+                            <h3 class="h2">Questions about Cash Deposite</h3>
                             <p>Contact one of our technical experts now. Our team is available chat and is ready to answer any questions you may have.</p>
                             <span class="phone fw-bold d-block mb-30">+90 178 985 478</span>
                             <a href="mailto:someone@example.com" class="template-btn primary-btn btn-small"><i class="fa-solid fa-comments"></i>Live Chat With Experts</a>
@@ -608,18 +551,18 @@
                             <img src="{{asset('assets/frontend/img/home2/map.png')}}" alt="map" class="img-fluid">
                             <ul class="ct-location">
                                 <li>
-                                    <span class="d-none d-md-block">Canada</span>
+                                    <span class="d-none d-md-block">Dhaka</span>
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Canada, USA"></button>
                                 </li>
                                 <li>
-                                    <span class="d-none d-md-block">NewYork</span>
+                                    <span class="d-none d-md-block">Cumilla</span>
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="NewYork, USA"></button>
                                 </li>
                                 <li data-bs-toggle="tooltip" data-bs-placement="top" title="NewYork, Russia">
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Canada, USA"></button>
                                 </li>
                                 <li>
-                                    <span class="d-none d-md-block">Russia</span>
+                                    <span class="d-none d-md-block">Vola</span>
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="NewYork, Russia"></button>
                                 </li>
                                 <li data-bs-toggle="tooltip" data-bs-placement="top" title="NewYork, Russia">
@@ -629,7 +572,7 @@
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="NewYork, Russia"></button>
                                 </li>
                                 <li>
-                                    <span class="d-none d-md-block">Australia</span>
+                                    <span class="d-none d-md-block">Chattagram</span>
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Australia"></button>
                                 </li>
                                 <li data-bs-toggle="tooltip" data-bs-placement="top" title="Africa">
@@ -639,7 +582,7 @@
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Africa"></button>
                                 </li>
                                 <li>
-                                    <span class="d-none d-md-block">Africa</span>
+                                    <span class="d-none d-md-block">Benapul</span>
                                     <button class="d-block d-md-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Africa"></button>
                                 </li>
                                 <li data-bs-toggle="tooltip" data-bs-placement="top" title="Africa">
@@ -658,95 +601,6 @@
     </section>
     <!--data center end-->
 
-    <!--application area start-->
-    <section class="hm2-applications overflow-hidden">
-        <div class="container position-relative zindex-1">
-            <img src="{{asset('assets/frontend/img/shapes/app-shape.svg')}}" alt="not found" class="position-absolute app-shape">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="section-title text-center">
-                        <h2 class="text-white">Install Applications Easily with cPanel</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="app-wrapper mt-40">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                        <div class="hm2-app-item text-center bg-white deep-shadow rounded-2">
-                            <div class="feagure-img">
-                                <img src="{{asset('assets/frontend/img/brands/wp.png')}}" alt="wordpress" class="img-fluid">
-                            </div>
-                            <div class="app-content mt-4">
-                                <a href="wp-hosting.html">
-                                    <h3 class="h6 mb-3">WordPress Hosting</h3>
-                                </a>
-                                <p class="mb-20">WordPress has grown to become the most popular which also makes it the number hackers.</p>
-                                <a href="wp-hosting.html" class="explore-btn">Read More<i class="fa-solid fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                        <div class="hm2-app-item text-center bg-white deep-shadow rounded-2">
-                            <div class="feagure-img">
-                                <img src="{{asset('assets/frontend/img/brands/zoomla.png')}}" alt="wordpress" class="img-fluid">
-                            </div>
-                            <div class="app-content mt-4">
-                                <a href="shared-hosting.html">
-                                    <h3 class="h6 mb-3">Shared Hosting</h3>
-                                </a>
-                                <p class="mb-20">Shared Hosting has grown to become the most popular which also makes it the number hackers.</p>
-                                <a href="shared-hosting.html" class="explore-btn">Read More<i class="fa-solid fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                        <div class="hm2-app-item text-center bg-white deep-shadow rounded-2">
-                            <div class="feagure-img">
-                                <img src="{{asset('assets/frontend/img/brands/drupal.png')}}" alt="wordpress" class="img-fluid">
-                            </div>
-                            <div class="app-content mt-4">
-                                <a href="index-3.html">
-                                    <h3 class="h6 mb-3">Game Hosting</h3>
-                                </a>
-                                <p class="mb-20">Game Hosting has grown to become the most popular which also makes it the number hackers.</p>
-                                <a href="index-3.html" class="explore-btn">Read More<i class="fa-solid fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
-                        <div class="hm2-app-item text-center bg-white deep-shadow rounded-2">
-                            <div class="feagure-img">
-                                <img src="{{asset('assets/frontend/img/brands/hosting.png')}}" alt="wordpress" class="img-fluid">
-                            </div>
-                            <div class="app-content mt-4">
-                                <a href="vps-hosting.html">
-                                    <h3 class="h6 mb-3">VPS Hosting</h3>
-                                </a>
-                                <p class="mb-20">VPS hosting has grown to become the most popular which also makes it the number hackers.</p>
-                                <a href="vps-hosting.html" class="explore-btn">Read More<i class="fa-solid fa-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="app-explore d-flex align-items-center justify-content-center mt-5">
-                <div class="app-thumbs">
-                    <img src="{{asset('assets/frontend/img/brands/app-sm-1.png')}}" class="img-fluid rounded-circle img-transparent" data-bs-toggle="tooltip" data-bs-placement="top" title="Joomla">
-                    <img src="{{asset('assets/frontend/img/brands/app-sm-2.png')}}" class="img-fluid rounded-circle img-transparent" data-bs-toggle="tooltip" data-bs-placement="top" title="WordPress">
-                    <img src="{{asset('assets/frontend/img/brands/app-sm-3.png')}}" class="img-fluid rounded-circle img-transparent" data-bs-toggle="tooltip" data-bs-placement="top" title="Drupal">
-                    <img src="{{asset('assets/frontend/img/brands/app-sm-4.png')}}" class="img-fluid rounded-circle img-transparent" data-bs-toggle="tooltip" data-bs-placement="top" title="VPS Hosting">
-                </div>
-                <div class="app-info ms-3">
-                    <a href="application.html">
-                        <h6 class="text-decoration-underline">More Application</h6>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--application area end-->
 
     <!--feedback area start-->
     <section class="hm2-feedback pt-120 pb-120 overflow-hidden">
@@ -840,277 +694,205 @@
     <!--feedback area end-->
 
     <!--faq section start-->
-    <section class="faq-section pt-120 pb-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="text-center">
-                        <h2>Frequently Asked Questions</h2>
-                        <p>We are regularly rated 5 stars by our customers and with over reviews on Trustpilot and Facebook, see for yourself why you can trust us to power your website.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="faq-tab hm2-faq-tab mt-5">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="tab-left">
-                            <ul class="hm2-server-tab-control nav nav-tabs border-0">
-                                <li><button class="active" data-bs-toggle="tab" data-bs-target="#faq_shared_hosting"><i class="fa-solid fa-server"></i><span class="ms-3">Shared Hosting</span></button></li>
-                                <li><button data-bs-toggle="tab" data-bs-target="#faq_wp_hosting"><i class="fa-brands fa-wordpress"></i><span class="ms-3">WordPress Hosting</span></button></li>
-                                <li><button data-bs-toggle="tab" data-bs-target="#faq_vps_hosting"><i class="fa-solid fa-database"></i><span class="ms-3">Vps Hosting</span></button></li>
-                                <li><button data-bs-toggle="tab" data-bs-target="#faq_could_hosting"><i class="fa-solid fa-cloud-meatball"></i><span class="ms-3">Dedicated Hosting</span></button></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="tab-content mt-5 mt-lg-0">
-                            <div class="tab-pane fade show active" id="faq_shared_hosting">
-                                <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_1">
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_1" data-bs-toggle="collapse">What is Shared hosting?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse show" id="sh_1" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_2" data-bs-toggle="collapse" class="collapsed">How many websites can I host?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_2" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_3" data-bs-toggle="collapse" class="collapsed">Does Shared Hosting include email?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_3" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_4" data-bs-toggle="collapse" class="collapsed">What's the difference between a domain name and web hosting?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_4" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_5" data-bs-toggle="collapse" class="collapsed">What's the difference between a domain name and web hosting?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_5" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_6" data-bs-toggle="collapse" class="collapsed">Can I upgrade to a more powerful hosting plan later?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_6" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_7" data-bs-toggle="collapse" class="collapsed">Do you include SSL Certificates?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_7" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_8" data-bs-toggle="collapse" class="collapsed">What if I have a domain at another company? Can I transfer it?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_8" data-bs-parent="#accordion_1">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="faq_wp_hosting">
-                                <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_2">
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_9" data-bs-toggle="collapse">What is WordPress hosting?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse show" id="sh_9" data-bs-parent="#accordion_2">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_10" data-bs-toggle="collapse" class="collapsed">How many websites can I host?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_10" data-bs-parent="#accordion_2">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_11" data-bs-toggle="collapse" class="collapsed">Do you provide SSL Certificate?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_11" data-bs-parent="#accordion_2">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="faq_vps_hosting">
-                                <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_3">
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_12" data-bs-toggle="collapse">What is Vps hosting?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse show" id="sh_12" data-bs-parent="#accordion_3">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_13" data-bs-toggle="collapse" class="collapsed">How many websites can I host?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse" id="sh_13" data-bs-parent="#accordion_3">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="faq_could_hosting">
-                                <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_4">
-                                    <div class="accordion-item">
-                                        <div class="accordion-header">
-                                            <a href="#sh_14" data-bs-toggle="collapse">What is Cloud hosting?</a>
-                                        </div>
-                                        <div class="accordion-collapse collapse show" id="sh_14" data-bs-parent="#accordion_4">
-                                            <div class="accordion-body">
-                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="faq-section pt-120 pb-120">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row justify-content-center">--}}
+{{--                <div class="col-lg-6">--}}
+{{--                    <div class="text-center">--}}
+{{--                        <h2>Frequently Asked Questions</h2>--}}
+{{--                        <p>We are regularly rated 5 stars by our customers and with over reviews on Trustpilot and Facebook, see for yourself why you can trust us to power your website.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="faq-tab hm2-faq-tab mt-5">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-lg-4">--}}
+{{--                        <div class="tab-left">--}}
+{{--                            <ul class="hm2-server-tab-control nav nav-tabs border-0">--}}
+{{--                                <li><button class="active" data-bs-toggle="tab" data-bs-target="#faq_shared_hosting"><i class="fa-solid fa-server"></i><span class="ms-3">Shared Hosting</span></button></li>--}}
+{{--                                <li><button data-bs-toggle="tab" data-bs-target="#faq_wp_hosting"><i class="fa-brands fa-wordpress"></i><span class="ms-3">WordPress Hosting</span></button></li>--}}
+{{--                                <li><button data-bs-toggle="tab" data-bs-target="#faq_vps_hosting"><i class="fa-solid fa-database"></i><span class="ms-3">Vps Hosting</span></button></li>--}}
+{{--                                <li><button data-bs-toggle="tab" data-bs-target="#faq_could_hosting"><i class="fa-solid fa-cloud-meatball"></i><span class="ms-3">Dedicated Hosting</span></button></li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-8">--}}
+{{--                        <div class="tab-content mt-5 mt-lg-0">--}}
+{{--                            <div class="tab-pane fade show active" id="faq_shared_hosting">--}}
+{{--                                <div class="accordion hm2-accordion rounded-2 deep-shadow bg-white" id="accordion_1">--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_1" data-bs-toggle="collapse">What is Shared hosting?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse show" id="sh_1" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_2" data-bs-toggle="collapse" class="collapsed">How many websites can I host?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse" id="sh_2" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_3" data-bs-toggle="collapse" class="collapsed">Does Shared Hosting include email?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse" id="sh_3" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_4" data-bs-toggle="collapse" class="collapsed">What's the difference between a domain name and web hosting?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse" id="sh_4" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_5" data-bs-toggle="collapse" class="collapsed">What's the difference between a domain name and web hosting?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse" id="sh_5" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_6" data-bs-toggle="collapse" class="collapsed">Can I upgrade to a more powerful hosting plan later?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse" id="sh_6" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_7" data-bs-toggle="collapse" class="collapsed">Do you include SSL Certificates?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse" id="sh_7" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="accordion-item">--}}
+{{--                                        <div class="accordion-header">--}}
+{{--                                            <a href="#sh_8" data-bs-toggle="collapse" class="collapsed">What if I have a domain at another company? Can I transfer it?</a>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="accordion-collapse collapse" id="sh_8" data-bs-parent="#accordion_1">--}}
+{{--                                            <div class="accordion-body">--}}
+{{--                                                <p class="mb-0">We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!--faq section end-->
 
     <!--blog section start-->
-    <section class="hm2-blog-section pt-120 pb-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center">
-                        <h2>Our Latest News & Blog</h2>
-                        <p>Choose from data centers worldwide to store your content close to your website visitors Cloudflare, has a network </p>
-                    </div>
-                </div>
-            </div>
-            <div class="hm2-blog-wrapper mt-5 hm2-blog-slider swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide hm2-blog-card bg-white">
-                        <div class="feature-img rounded-top overflow-hidden">
-                            <a href="blog-details.html"><img src="{{asset('assets/frontend/img/home2/blog-1.jpg')}}" alt="feature" class="img-fluid"></a>
-                        </div>
-                        <div class="hm2-blog-card-content position-relative">
-                            <a href="vps-hosting-2.html" class="tag-btn rounded-pill position-absolute">Cloud Hosting</a>
-                            <a href="blog-details.html">
-                                <h3 class="h5 mb-3">Improving Website Performance with LiteSpeed.</h3>
-                            </a>
-                            <p>Many desktop publishing packages & will uncover many web sites.</p>
-                            <hr class="spacer mt-20 mb-20">
-                            </hr>
-                            <div class="bog-author d-flex align-items-center justify-content-between">
-                                <div class="d-inline-flex align-items-center">
-                                    <img src="{{asset('assets/frontend/img/home2/client-1.png')}}" alt="author" class="img-fluid rounded-circle">
-                                    <h6 class="ms-2 mb-0">Wade Warren</h6>
-                                </div>
-                                <span class="date">2 Days Ago</span>
-                            </div>
+{{--    <section class="hm2-blog-section pt-120 pb-120">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row justify-content-center">--}}
+{{--                <div class="col-lg-6">--}}
+{{--                    <div class="section-title text-center">--}}
+{{--                        <h2>Our Latest News & Blog</h2>--}}
+{{--                        <p>Choose from data centers worldwide to store your content close to your website visitors Cloudflare, has a network </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="hm2-blog-wrapper mt-5 hm2-blog-slider swiper">--}}
+{{--                <div class="swiper-wrapper">--}}
+{{--                    <div class="swiper-slide hm2-blog-card bg-white">--}}
+{{--                        <div class="feature-img rounded-top overflow-hidden">--}}
+{{--                            <a href="blog-details.html"><img src="{{asset('assets/frontend/img/home2/blog-1.jpg')}}" alt="feature" class="img-fluid"></a>--}}
+{{--                        </div>--}}
+{{--                        <div class="hm2-blog-card-content position-relative">--}}
+{{--                            <a href="vps-hosting-2.html" class="tag-btn rounded-pill position-absolute">Cloud Hosting</a>--}}
+{{--                            <a href="blog-details.html">--}}
+{{--                                <h3 class="h5 mb-3">Improving Website Performance with LiteSpeed.</h3>--}}
+{{--                            </a>--}}
+{{--                            <p>Many desktop publishing packages & will uncover many web sites.</p>--}}
+{{--                            <hr class="spacer mt-20 mb-20">--}}
+{{--                            </hr>--}}
+{{--                            <div class="bog-author d-flex align-items-center justify-content-between">--}}
+{{--                                <div class="d-inline-flex align-items-center">--}}
+{{--                                    <img src="{{asset('assets/frontend/img/home2/client-1.png')}}" alt="author" class="img-fluid rounded-circle">--}}
+{{--                                    <h6 class="ms-2 mb-0">Wade Warren</h6>--}}
+{{--                                </div>--}}
+{{--                                <span class="date">2 Days Ago</span>--}}
+{{--                            </div>--}}
 
-                        </div>
-                    </div>
-                    <div class="swiper-slide hm2-blog-card bg-white">
-                        <div class="feature-img rounded-top overflow-hidden">
-                            <a href="blog-details.html"><img src="{{asset('assets/frontend/img/home2/blog-2.jpg')}}" alt="feature" class="img-fluid"></a>
-                        </div>
-                        <div class="hm2-blog-card-content position-relative">
-                            <a href="vps-hosting.html" class="tag-btn rounded-pill position-absolute">Cloud Hosting</a>
-                            <a href="blog-details.html">
-                                <h3 class="h5 mb-3">The definitive list of digital products you can sell</h3>
-                            </a>
-                            <p>Many desktop publishing packages & will uncover many web sites.</p>
-                            <hr class="spacer mt-20 mb-20">
-                            </hr>
-                            <div class="bog-author d-flex align-items-center justify-content-between">
-                                <div class="d-inline-flex align-items-center">
-                                    <img src="{{asset('assets/frontend/img/home2/client-2.png')}}" alt="author" class="img-fluid rounded-circle">
-                                    <h6 class="ms-2 mb-0">Jani Moilanen</h6>
-                                </div>
-                                <span class="date">2 Days Ago</span>
-                            </div>
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="swiper-slide hm2-blog-card bg-white">--}}
+{{--                        <div class="feature-img rounded-top overflow-hidden">--}}
+{{--                            <a href="blog-details.html"><img src="{{asset('assets/frontend/img/home2/blog-2.jpg')}}" alt="feature" class="img-fluid"></a>--}}
+{{--                        </div>--}}
+{{--                        <div class="hm2-blog-card-content position-relative">--}}
+{{--                            <a href="vps-hosting.html" class="tag-btn rounded-pill position-absolute">Cloud Hosting</a>--}}
+{{--                            <a href="blog-details.html">--}}
+{{--                                <h3 class="h5 mb-3">The definitive list of digital products you can sell</h3>--}}
+{{--                            </a>--}}
+{{--                            <p>Many desktop publishing packages & will uncover many web sites.</p>--}}
+{{--                            <hr class="spacer mt-20 mb-20">--}}
+{{--                            </hr>--}}
+{{--                            <div class="bog-author d-flex align-items-center justify-content-between">--}}
+{{--                                <div class="d-inline-flex align-items-center">--}}
+{{--                                    <img src="{{asset('assets/frontend/img/home2/client-2.png')}}" alt="author" class="img-fluid rounded-circle">--}}
+{{--                                    <h6 class="ms-2 mb-0">Jani Moilanen</h6>--}}
+{{--                                </div>--}}
+{{--                                <span class="date">2 Days Ago</span>--}}
+{{--                            </div>--}}
 
-                        </div>
-                    </div>
-                    <div class="swiper-slide hm2-blog-card bg-white">
-                        <div class="feature-img rounded-top overflow-hidden">
-                            <a href="blog-details.html"><img src="{{asset('assets/frontend/img/home2/blog-3.jpg')}}" alt="feature" class="img-fluid"></a>
-                        </div>
-                        <div class="hm2-blog-card-content position-relative">
-                            <a href="vps-hosting.html" class="tag-btn rounded-pill position-absolute">Cloud Hosting</a>
-                            <a href="blog-details.html">
-                                <h3 class="h5 mb-3">25 Best Hosting Company All Over the World</h3>
-                            </a>
-                            <p>Many desktop publishing packages & will uncover many web sites.</p>
-                            <hr class="spacer mt-20 mb-20">
-                            </hr>
-                            <div class="bog-author d-flex align-items-center justify-content-between">
-                                <div class="d-inline-flex align-items-center">
-                                    <img src="{{asset('assets/frontend/img/home2/client-3.png')}}" alt="author" class="img-fluid rounded-circle">
-                                    <h6 class="ms-2 mb-0">Devon Lane</h6>
-                                </div>
-                                <span class="date">2 Days Ago</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination slider-pagination"></div>
-            </div>
-        </div>
-    </section>
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="swiper-slide hm2-blog-card bg-white">--}}
+{{--                        <div class="feature-img rounded-top overflow-hidden">--}}
+{{--                            <a href="blog-details.html"><img src="{{asset('assets/frontend/img/home2/blog-3.jpg')}}" alt="feature" class="img-fluid"></a>--}}
+{{--                        </div>--}}
+{{--                        <div class="hm2-blog-card-content position-relative">--}}
+{{--                            <a href="vps-hosting.html" class="tag-btn rounded-pill position-absolute">Cloud Hosting</a>--}}
+{{--                            <a href="blog-details.html">--}}
+{{--                                <h3 class="h5 mb-3">25 Best Hosting Company All Over the World</h3>--}}
+{{--                            </a>--}}
+{{--                            <p>Many desktop publishing packages & will uncover many web sites.</p>--}}
+{{--                            <hr class="spacer mt-20 mb-20">--}}
+{{--                            </hr>--}}
+{{--                            <div class="bog-author d-flex align-items-center justify-content-between">--}}
+{{--                                <div class="d-inline-flex align-items-center">--}}
+{{--                                    <img src="{{asset('assets/frontend/img/home2/client-3.png')}}" alt="author" class="img-fluid rounded-circle">--}}
+{{--                                    <h6 class="ms-2 mb-0">Devon Lane</h6>--}}
+{{--                                </div>--}}
+{{--                                <span class="date">2 Days Ago</span>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="swiper-pagination slider-pagination"></div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!--blog section end-->
 
     <!--subscribe area start-->

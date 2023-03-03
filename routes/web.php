@@ -121,6 +121,7 @@ Route::prefix('/admin')->name('admin.')->middleware(['auth'])->group(function ()
 
     Route::post('/update/cashmanage/status', [WithdrawController::class, 'ajaxUpdateStatus'])->name('update.cashmanage.status');
     Route::post('/update/deposit/status', [DepositController::class, 'ajaxUpdateStatus'])->name('update.deposit.status');
+    Route::post('/update/subagent/status', [SubAgentController::class, 'ajaxUpdateStatus'])->name('update.subagent.status');
   });
 
 

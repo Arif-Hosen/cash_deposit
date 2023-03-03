@@ -34,9 +34,9 @@
                 <thead>
                 <tr>
                   <th width="10">#</th>
-                  <th>Name</th>
+                  <th>Sub Agent ID</th>
                   <th>Login ID</th>
-                  <th>Agent</th>
+                  <th>Agent ID</th>
                   <th>Email</th>
                   <th>Phone</th>
                   <th width="30">Type</th>
@@ -51,9 +51,9 @@
                 @foreach($sub_agent as $key => $val)
                   <tr class="@if(($key%2) == 0)gradeX @else gradeC @endif">
                     <td class="p-1">{{ ($key+1) }}</td>
-                    <td class="p-1 text-capitalize">{{ $val->name_en }}</td>
                     <td class="p-1 text-capitalize">{{ $val->username }}</td>
-                    <td class="p-1">{{ $val->agent_id }}</td>
+                    <td class="p-1 text-capitalize">{{ $val->username }}</td>
+                    <td class="p-1">{{ $val->agent?->username }}</td>
                     <td class="p-1">{{ $val->email }}</td>
                     <td class="p-1">{{ $val->phone }}</td>
                     <td class="p-1 text-capitalize">{{ \App\Helper\CustomHelper::userRoleName($val) }}</td>
@@ -154,9 +154,10 @@
       //   .appendTo('#datatable-buttons_wrapper .col-md-6:eq(0)');
 
 
-              $(document).on('change', 'input[name="onoffswitch"]', function () {
+     $(document).on('change', 'input[name="onoffswitch"]', function () {
         var status = 'inactive';
         var id = $(this).data('id')
+                   console.log(id);
         var isChecked = $(this).is(":checked");
         if (isChecked) {
           status = 'active';
@@ -176,6 +177,7 @@
 
       $(document).on('click', '.yes-btn', function () {
         var pid = $(this).data('id');
+        console.log(pid);
         var $this = $('.delete_' + pid)
         $.ajax({
           url: "{{ route('admin.subagent.destroy') }}",

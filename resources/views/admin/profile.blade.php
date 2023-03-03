@@ -68,46 +68,46 @@
                 <strong class="text-danger">{{ $errors->first('name_en') }}</strong>
                 @enderror
               </div>
-              <div class="col-span-6 sm:col-span-4">
-                <label class="block font-medium text-sm text-gray-700" for="name_bn">Name(Bangla)</label>
-                <input
-                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('name_bn') is-invalid @enderror"
-                  id="name_bn"
-                  name="name_bn" type="text" autocomplete="name_bn" value="{{ old('name_bn', auth()->user()->name_bn) }}">
-                @error('name_bn')
-                <strong class="text-danger">{{ $errors->first('name_bn') }}</strong>
-                @enderror
-              </div>
-              <div class="col-span-6 sm:col-span-4">
-                <label class="block font-medium text-sm text-gray-700" for="father_name">Father Name </label>
-                <input
-                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('father_name') is-invalid @enderror"
-                  id="father_name"
-                  name="father_name" type="text" autocomplete="father_name" value="{{ old('father_name', auth()->user()->father_name) }}">
-                @error('father_name')
-                <strong class="text-danger">{{ $errors->first('father_name') }}</strong>
-                @enderror
-              </div>
-              <div class="col-span-6 sm:col-span-4">
-                <label class="block font-medium text-sm text-gray-700" for="mother_name">Mother Name</label>
-                <input
-                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('mother_name') is-invalid @enderror"
-                  id="mother_name"
-                  name="mother_name" type="text" autocomplete="mother_name" value="{{ old('mother_name', auth()->user()->mother_name) }}">
-                @error('mother_name')
-                <strong class="text-danger">{{ $errors->first('mother_name') }}</strong>
-                @enderror
-              </div>
-              <div class="col-span-6 sm:col-span-4">
-                <label class="block font-medium text-sm text-gray-700" for="nid">NID</label>
-                <input
-                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('phone') is-invalid @enderror"
-                  id="nid"
-                  name="nid" type="text" autocomplete="nid" value="{{ old('nid', auth()->user()->nid) }}">
-                @error('nid')
-                <strong class="text-danger">{{ $errors->first('nid') }}</strong>
-                @enderror
-              </div>
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <label class="block font-medium text-sm text-gray-700" for="name_bn">Name(Bangla)</label>--}}
+{{--                <input--}}
+{{--                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('name_bn') is-invalid @enderror"--}}
+{{--                  id="name_bn"--}}
+{{--                  name="name_bn" type="text" autocomplete="name_bn" value="{{ old('name_bn', auth()->user()->name_bn) }}">--}}
+{{--                @error('name_bn')--}}
+{{--                <strong class="text-danger">{{ $errors->first('name_bn') }}</strong>--}}
+{{--                @enderror--}}
+{{--              </div>--}}
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <label class="block font-medium text-sm text-gray-700" for="father_name">Father Name </label>--}}
+{{--                <input--}}
+{{--                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('father_name') is-invalid @enderror"--}}
+{{--                  id="father_name"--}}
+{{--                  name="father_name" type="text" autocomplete="father_name" value="{{ old('father_name', auth()->user()->father_name) }}">--}}
+{{--                @error('father_name')--}}
+{{--                <strong class="text-danger">{{ $errors->first('father_name') }}</strong>--}}
+{{--                @enderror--}}
+{{--              </div>--}}
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <label class="block font-medium text-sm text-gray-700" for="mother_name">Mother Name</label>--}}
+{{--                <input--}}
+{{--                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('mother_name') is-invalid @enderror"--}}
+{{--                  id="mother_name"--}}
+{{--                  name="mother_name" type="text" autocomplete="mother_name" value="{{ old('mother_name', auth()->user()->mother_name) }}">--}}
+{{--                @error('mother_name')--}}
+{{--                <strong class="text-danger">{{ $errors->first('mother_name') }}</strong>--}}
+{{--                @enderror--}}
+{{--              </div>--}}
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <label class="block font-medium text-sm text-gray-700" for="nid">NID</label>--}}
+{{--                <input--}}
+{{--                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('phone') is-invalid @enderror"--}}
+{{--                  id="nid"--}}
+{{--                  name="nid" type="text" autocomplete="nid" value="{{ old('nid', auth()->user()->nid) }}">--}}
+{{--                @error('nid')--}}
+{{--                <strong class="text-danger">{{ $errors->first('nid') }}</strong>--}}
+{{--                @enderror--}}
+{{--              </div>--}}
               <div class="col-span-6 sm:col-span-4">
                 <label class="block font-medium text-sm text-gray-700" for="birth_certificate">Date of birth</label>
                 <input
@@ -128,60 +128,60 @@
                 <strong class="text-danger">{{ $errors->first('village') }}</strong>
                 @enderror
               </div>
-              <div class="col-span-6 sm:col-span-4">
-                <label class="block font-medium text-sm text-gray-700" for="po">P.O.</label>
-                <input
-                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('po') is-invalid @enderror"
-                  id="po"
-                  name="po" type="text" autocomplete="po" value="{{ old('po', auth()->user()->po) }}">
-                @error('po')
-                <strong class="text-danger">{{ $errors->first('po') }}</strong>
-                @enderror
-              </div>
-              <div class="col-span-6 sm:col-span-4">
-                <label class="block font-medium text-sm text-gray-700" for="ps">P.S.</label>
-                <input
-                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('ps') is-invalid @enderror"
-                  id="ps"
-                  name="ps" type="text" autocomplete="ps" value="{{ old('ps', auth()->user()->ps) }}">
-                @error('ps')
-                <strong class="text-danger">{{ $errors->first('ps') }}</strong>
-                @enderror
-              </div>
-              <div class="col-span-6 sm:col-span-4">
-                <div class="form-group">
-                  <label class="block font-medium text-sm text-gray-700">Division</label>
-                  <select name="division_id"
-                          class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('division_id') is-invalid @enderror">
-                    <option value="">Choose a district</option>
-                    @foreach($divisions as $division)
-                      <option value="{{ $division->id }}"
-                        @selected($division->id == old('division->id', auth()->user()->division_id))>{{ $division->name }}</option>
-                    @endforeach
-                  </select>
-                  @error('division')
-                  <strong class="text-danger">{{ $errors->first('division') }}</strong>
-                  @enderror
-                </div>
-              </div>
-              <div class="col-span-6 sm:col-span-4">
-                <div class="form-group">
-                  <label class="block font-medium text-sm text-gray-700">District</label>
-                  <select name="district_id"
-                          class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('district_id') is-invalid @enderror">
-                    <option value="">Choose a district</option>
-                    {{--                        @foreach($divisions as $val)--}}
-                    @foreach($districts as $district)
-                      <option value="{{ $district->id }}"
-                        @selected($district->id == old('district_id', auth()->user()->district_id))>{{ $district->name }}</option>
-                    @endforeach
-                    {{--                        @endforeach--}}
-                  </select>
-                  @error('district')
-                  <strong class="text-danger">{{ $errors->first('district') }}</strong>
-                  @enderror
-                </div>
-              </div>
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <label class="block font-medium text-sm text-gray-700" for="po">P.O.</label>--}}
+{{--                <input--}}
+{{--                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('po') is-invalid @enderror"--}}
+{{--                  id="po"--}}
+{{--                  name="po" type="text" autocomplete="po" value="{{ old('po', auth()->user()->po) }}">--}}
+{{--                @error('po')--}}
+{{--                <strong class="text-danger">{{ $errors->first('po') }}</strong>--}}
+{{--                @enderror--}}
+{{--              </div>--}}
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <label class="block font-medium text-sm text-gray-700" for="ps">P.S.</label>--}}
+{{--                <input--}}
+{{--                  class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('ps') is-invalid @enderror"--}}
+{{--                  id="ps"--}}
+{{--                  name="ps" type="text" autocomplete="ps" value="{{ old('ps', auth()->user()->ps) }}">--}}
+{{--                @error('ps')--}}
+{{--                <strong class="text-danger">{{ $errors->first('ps') }}</strong>--}}
+{{--                @enderror--}}
+{{--              </div>--}}
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <div class="form-group">--}}
+{{--                  <label class="block font-medium text-sm text-gray-700">Division</label>--}}
+{{--                  <select name="division_id"--}}
+{{--                          class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('division_id') is-invalid @enderror">--}}
+{{--                    <option value="">Choose a district</option>--}}
+{{--                    @foreach($divisions as $division)--}}
+{{--                      <option value="{{ $division->id }}"--}}
+{{--                        @selected($division->id == old('division->id', auth()->user()->division_id))>{{ $division->name }}</option>--}}
+{{--                    @endforeach--}}
+{{--                  </select>--}}
+{{--                  @error('division')--}}
+{{--                  <strong class="text-danger">{{ $errors->first('division') }}</strong>--}}
+{{--                  @enderror--}}
+{{--                </div>--}}
+{{--              </div>--}}
+{{--              <div class="col-span-6 sm:col-span-4">--}}
+{{--                <div class="form-group">--}}
+{{--                  <label class="block font-medium text-sm text-gray-700">District</label>--}}
+{{--                  <select name="district_id"--}}
+{{--                          class="border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1 block w-full @error('district_id') is-invalid @enderror">--}}
+{{--                    <option value="">Choose a district</option>--}}
+{{--                    --}}{{--                        @foreach($divisions as $val)--}}
+{{--                    @foreach($districts as $district)--}}
+{{--                      <option value="{{ $district->id }}"--}}
+{{--                        @selected($district->id == old('district_id', auth()->user()->district_id))>{{ $district->name }}</option>--}}
+{{--                    @endforeach--}}
+{{--                    --}}{{--                        @endforeach--}}
+{{--                  </select>--}}
+{{--                  @error('district')--}}
+{{--                  <strong class="text-danger">{{ $errors->first('district') }}</strong>--}}
+{{--                  @enderror--}}
+{{--                </div>--}}
+{{--              </div>--}}
               <div class="col-span-6 sm:col-span-4">
                 <div class="form-group">
                   <label class="control-label">Profile Photo <label class="text-danger">*</label></label>

@@ -17,13 +17,13 @@ class PaymentSeeder extends Seeder
     {
         Payment::create([
             'name' => 'bkash agent',
-            'user_id' => '4',
+            'user_id' => '1',
             'mobile' => '01860842421',
             'status' => Payment::$statusArray[0],
         ]);
        Payment::create([
             'name' => 'bkash personal',
-            'user_id' => '5',
+            'user_id' => '1',
             'mobile' => '01860842422',
             'status' => Payment::$statusArray[0],
         ]);

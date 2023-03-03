@@ -84,6 +84,10 @@ class User extends Authenticatable implements MustVerifyEmail
   {
     return $this->hasOne(Institute::class, 'id', 'institute_id');
   }
+    public function agent(): \Illuminate\Database\Eloquent\Relations\HasOne
+    {
+        return $this->hasOne(User::class, 'id', 'agent_id');
+    }
 
 
   public function division(): \Illuminate\Database\Eloquent\Relations\HasOne

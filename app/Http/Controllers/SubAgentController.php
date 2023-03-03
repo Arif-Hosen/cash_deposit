@@ -14,7 +14,7 @@ use Spatie\Permission\Models\Role;
 class SubAgentController extends Controller
 {
     public function index() {
-            $data['sub_agent'] = User::whereHas('roles',function( $user){$user->where('roles.name','Sub Agent');})->paginate(100);
+            $data['sub_agent'] = User::with('agent')->whereHas('roles',function( $user){$user->where('roles.name','Sub Agent');})->paginate(100);
 //            $data['agent'] = User::select('name_en','id')->where('id', $data['sub_agent'][0]->agent_id)->get();
 //        $data['roles'] = Role::select('id', 'name')->orderby('name', 'asc')->get();
 //        $roleNames = auth()->user()->roles->pluck('name');
@@ -26,6 +26,7 @@ class SubAgentController extends Controller
 //        $role['data'] = Role::where('name', $roleName)->first();
 //        $data['users'] = User::with('roles')->orderby('id', 'desc')->paginate(100);
 //return $data;
+//        return $data['sub_agent'];
         return view('admin.user.subAgent.list', $data);
     }
 
@@ -64,14 +65,14 @@ class SubAgentController extends Controller
         if ($request->has('id')) {
             $user = User::find($request->id);
             $rules['email'] = 'nullable|email|unique:' . with(new User)->getTable() . ',email,' . $request->id;
-            $rules['username'] = 'nullable|string|min:6|max:8|unique:'.with(new user)->getTable().',username';
+            $rules['username'] = 'nullable|string|min:5|max:12|unique:'.with(new user)->getTable().',username';
             $rules['phone'] = 'nullable|string|min:11|max:11|unique:' . with(new User)->getTable() . ',phone,' . $request->id;
             $rules['password'] = 'nullable|string|min:' . User::$minimumPasswordLength;
             $message = $message . ' updated';
         } else {
             $user = new User();
             $rules['email'] = 'required|email|unique:' . with(new User)->getTable() . ',email';
-            $rules['username'] = 'required|string|min:6|max:8|unique:'.with(new user)->getTable().',username';
+            $rules['username'] = 'required|string|min:5|max:12|unique:'.with(new user)->getTable().',username';
             // $rules['phone'] = 'required|string|min:11|max:11|unique:' . with(new User)->getTable() . ',phone';
             $message = $message . ' created';
         }
@@ -112,11 +113,12 @@ class SubAgentController extends Controller
     {
         $id = $request->post('id');
         try {
-            $user = SubAgent::find($id);
+            $user = User::find($id);
             if ($user->delete()) {
                 return 'success';
             }
         } catch (\Exception $e) {
+//            return $e;
         }
     }
 
@@ -125,21 +127,17 @@ class SubAgentController extends Controller
      * @param Request $request
      * @return string|void
      */
-    public function ajaxUpdateStatus(Request $request)
-    {
+    public function ajaxUpdateStatus(Request $request) {
         if ($request->isMethod("POST")) {
             $id = $request->post('id');
             $postStatus = $request->post('status');
             $status = strtolower($postStatus);
-            $user = SubAgent::find($id);
+            $user = User::find($id);
             if ($user->update(['status' => $status])) {
                 return "success";
             }
         }
     }
-
-
-
 
 
 

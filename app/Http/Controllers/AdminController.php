@@ -43,23 +43,23 @@ class AdminController extends Controller {
       'email' => 'required|email|unique:' . with(new User)->getTable() . ',email,' . auth()->id(),
       'phone' => 'required|regex:' . CustomHelper::PhoneNoRegex,
       'name_en' => 'required|string',
-      'name_bn' => 'nullable|string',
-      'father_name' => 'nullable|string',
-      'mother_name' => 'nullable|string',
+//      'name_bn' => 'nullable|string',
+//      'father_name' => 'nullable|string',
+//      'mother_name' => 'nullable|string',
 //      'email' => 'required|unique:' . with(new User)->getTable() . ',email,',
 //      'phone' => 'required|unique:' . with(new User)->getTable() . ',phone,',
       'nid ' => 'nullable|unique:' . with(new User)->getTable() . ',nid,',
       'dob ' => 'nullable|date',
       'alt_phone' => 'nullable|string|regex:' . CustomHelper::PhoneNoRegex,
-      'village' => 'nullable|string',
-      'ps' => 'nullable|string',
-      'po' => 'nullable|string',
-      'division_id' => 'nullable|numeric|exists:' . with(new Division)->getTable() . ',id',
-      'district_id' => 'nullable|numeric|exists:' . with(new District)->getTable() . ',id',
+//      'village' => 'nullable|string',
+//      'ps' => 'nullable|string',
+//      'po' => 'nullable|string',
+//      'division_id' => 'nullable|numeric|exists:' . with(new Division)->getTable() . ',id',
+//      'district_id' => 'nullable|numeric|exists:' . with(new District)->getTable() . ',id',
     ]);
 //    return $request->all();
 
-    $data = $request->only(['username', 'email', 'phone', 'name_en', 'name_bn', 'father_name', 'mother_name', 'nid', 'dob', 'alt_phone', 'village', 'ps', 'po', 'division_id', 'district_id']);
+    $data = $request->only(['username', 'email', 'phone', 'name_en', 'dob', 'alt_phone']);
 //    return $data;
     $user = User::where('id', auth()->user()->id);
 

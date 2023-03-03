@@ -32,8 +32,9 @@ class DepositController extends Controller
            $data['rocket_personals'] = Payment::where('user_id', $adminId)->where('name','rocket personal')->get();
            $data['upay_personals'] = Payment::where('user_id', $adminId)->where('name','upay personal')->get();
         //    user wise deposit data
+//        return $data;
            $data['deposits'] = Deposit::where('user_id', auth()->id())->get();
-        // total deposit 
+        // total deposit
         $data['total_deposits'] = Deposit::select('amount')->where('user_id', auth()->id())->where('status','accepted')->get();
         // return $data['total_deposits'];
 
@@ -69,7 +70,7 @@ class DepositController extends Controller
         return view('admin.cash.deposit',$data);
     }
 
-   
+
     public function depositList()
     {
         $data['allDeposits'] = Deposit::get();
@@ -77,7 +78,7 @@ class DepositController extends Controller
         return view('admin.cashmanage.depositManage',$data);
     }
 
-   
+
     /**
      * Display the specified resource.
      *

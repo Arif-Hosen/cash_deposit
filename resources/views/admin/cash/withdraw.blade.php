@@ -11,7 +11,7 @@
                 <div class="card-body">
                     <section class="panel">
                         <header class="panel-heading">
-                            <h2 class="panel-title">Online Payment</h2>
+                            <h2 class="panel-title">Withdraw</h2>
                         </header>
 
 
@@ -24,16 +24,16 @@
                             @endif
 
                             <div class="row">
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
-                                            <img src="{{asset('assets/admin/images/cash/1.png')}}" class="img-fluid" alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center"><a href="" class="text-dark">bKash Agent</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">--}}
+{{--                                            <img src="{{asset('assets/admin/images/cash/1.png')}}" class="img-fluid" alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center"><a href="" class="text-dark">bKash Agent</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
                                 <div class="col-md-3 col-lg-3">
                                     <div class="product-list-box">
@@ -46,38 +46,38 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a href="javascript:void(0);">
-                                            <img src="{{asset('assets/admin/images/cash/3.png')}}" class="img-fluid" alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Nagad Personal</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a href="javascript:void(0);">--}}
+{{--                                            <img src="{{asset('assets/admin/images/cash/3.png')}}" class="img-fluid" alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Nagad Personal</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a href="javascript:void(0);">
-                                            <img src="{{asset('assets/admin/images/cash/4.png')}}" class="img-fluid" alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Rocket Personal</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a href="javascript:void(0);">--}}
+{{--                                            <img src="{{asset('assets/admin/images/cash/4.png')}}" class="img-fluid" alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center"><a href="" class="text-dark">Rocket Personal</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <div class="col-md-3 col-lg-3">
-                                    <div class="product-list-box">
-                                        <a href="javascript:void(0);">
-                                            <img src="{{asset('assets/admin/images/cash/5.png')}}" class="img-fluid" alt="work-thumbnail">
-                                        </a>
-                                        <div class="detail">
-                                            <h4 class="font-16 text-center text-center"><a href="" class="text-dark">Upay Personal</a> </h4>
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <div class="col-md-3 col-lg-3">--}}
+{{--                                    <div class="product-list-box">--}}
+{{--                                        <a href="javascript:void(0);">--}}
+{{--                                            <img src="{{asset('assets/admin/images/cash/5.png')}}" class="img-fluid" alt="work-thumbnail">--}}
+{{--                                        </a>--}}
+{{--                                        <div class="detail">--}}
+{{--                                            <h4 class="font-16 text-center text-center"><a href="" class="text-dark">Upay Personal</a> </h4>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                             </div>
 
                             {{--                            <form action="{{ route('admin.user.store') }}" method="post" enctype="multipart/form-data">--}}
@@ -126,7 +126,7 @@
                                                 <td class="p-1 text-capitalize">{{ $val->withdraw_id }}</td>
                                                 <td class="p-1">{{ $val->amount }}</td>
                                                 <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime($val->created_at)) }}</td>
-                                                    <td class="p-1 text-capitalize">{{ $val->status }}</td>
+                                                <td class="p-1 text-capitalize "><button class="btn text-capitalize @if($val->status == 'pending') btn-warning @else btn-success @endif">{{ $val->status }}</button></td>
 
                                         @endforeach
                                             </tr>
@@ -137,7 +137,7 @@
 
                                                     <td></td>
 
-                                                <td>Total = <strong style="color: green">{{$sum_total ?? ""}}</strong></td>
+                                                <td><strong>Total = </strong><strong style="color: green">{{$sum_total ?? ""}}</strong></td>
                                                 <td></td>
                                                 <td></td>
 

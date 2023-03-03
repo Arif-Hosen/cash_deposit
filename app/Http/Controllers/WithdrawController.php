@@ -39,10 +39,9 @@ public function list(){
             ->where('status', '=', Withdraw::$statusArrays[1])->groupby('withdraw_id')->where('user_id',$user_id)->get();
         $data['sum_total'] = $activewith[0]['sum_total'] ?? "";
         $data['user'] = User::whereHas('roles',function( $user){$user->where('roles.name','Agent','Sub Agent');})->first();
-        $data['bkash'] = Payment::where('name','bkash personal')->get();
+        $data['bkash'] = Payment::where('user_id',$user_id)->where('name','bkash personal')->get();
         $wid['wid'] = Withdraw::where('user_id',$user_id)->get();
-//        $data['datas'] = Payment::orderby('id', 'desc')->get();
-//        return $wid;
+//        return $datas;
         $data['roles'] = Role::select('id', 'name')->orderby('name', 'asc')->get();
         return view('admin.cash.withdraw', $data, $wid);
     }
