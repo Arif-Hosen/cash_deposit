@@ -104,6 +104,16 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="form-group">
+                      <label class="control-label">Set Interest<span class="text-danger">*</span></label>
+                      <input type="number" name="interest_percentage" placeholder="15" value="{{ $user->interest_percentage }}"
+                             class="form-control @error('interest_percentage') is-invalid @enderror" required>
+                      @error('interest_percentage')
+                      <strong class="text-danger">{{ $errors->first('interest_percentage') }}</strong>
+                      @enderror
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="form-group">
                       <label class="control-label">Status<span class="text-danger">*</span></label>
                       <select name="status" required class="form-control @error('status') is-invalid @enderror">
                         <option value="">Choose a status</option>

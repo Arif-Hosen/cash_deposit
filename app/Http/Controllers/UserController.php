@@ -50,11 +50,10 @@ class UserController extends Controller {
 
 
   public function store(Request $request) {
-    // return auth()->id();
+    // return $request;
     $message = '<strong>Congratulations!!!</strong> User successfully';
     $rules = [
       'name' => 'required|string',
-      'password' => 'required|string|min:' . User::$minimumPasswordLength,
       'status' => ['required', Rule::in(User::$statusArrays)],
     ];
     if ($request->has('id')) {
@@ -62,28 +61,32 @@ class UserController extends Controller {
       $rules['email'] = 'required|email';
       $rules['username'] = 'required|string|min:5|max:12';
       $rules['phone'] = 'required|string|min:11|max:11';
-      $rules['password'] = 'nullable|string|min:' . User::$minimumPasswordLength;
+      $rules['interest_percentage'] = 'required|string';
       $message = $message . ' updated';
     } else {
       $user = new User();
       $rules['email'] = 'required|email|unique:' . with(new User)->getTable() . ',email';
       $rules['username'] = 'required|string|min:5|max:12|unique:'.with(new user)->getTable().',username';
        $rules['phone'] = 'required|string|min:11|max:11|unique:' . with(new User)->getTable() . ',phone';
+       $rules['password'] = 'nullable|string|min:' . User::$minimumPasswordLength;
+       $rules['interest_percentage'] = 'required|string';
       $message = $message . ' created';
     }
     $request->validate($rules);
-
+    // return $user;
     try {
       $user->name_en = $request->name;
       $user->username = $request->username;
       $user->email = $request->email;
       $user->phone = $request->phone;
+      $user->interest_percentage = $request->interest_percentage;
 
       if ($request->password != null) {
         $user->password = bcrypt($request->password);
       }
       $user->status = strtolower($request->status);
       $role = Role::find($request->role);
+      
       if ($user->save()) {
         if (isset($user->roles) && count($user->roles) > 0) {
           CustomHelper::removeUsersRole($user);

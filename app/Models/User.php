@@ -43,6 +43,7 @@ class User extends Authenticatable implements MustVerifyEmail
     'status',
     'image',
     'address',
+    'interest_percentage'
 
   ];
 

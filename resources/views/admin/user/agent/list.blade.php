@@ -38,6 +38,7 @@
                   <th>Email</th>
                   <th>Phone</th>
                   <th width="30">Type</th>
+                  <th width="30">Interest(%)</th>
                   <th width="200">Created</th>
                   <th width="50">Status</th>
                   @if(\App\Helper\CustomHelper::canView('Manage User|Delete User', 'Super Admin'))
@@ -53,6 +54,7 @@
                     <td class="p-1">{{ $val->email }}</td>
                     <td class="p-1">{{ $val->phone }}</td>
                     <td class="p-1 text-capitalize">{{ \App\Helper\CustomHelper::userRoleName($val) }}</td>
+                    <td class="p-1">{{ $val->interest_percentage?? 'N/A' }}</td>
                     <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime($val->created_at)) }}</td>
                     @if(\App\Helper\CustomHelper::canView('Manage User', 'Super Admin'))
                       <td class="text-capitalize p-1" width="100">
